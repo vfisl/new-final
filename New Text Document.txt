@@ -1,0 +1,287 @@
+Given
+  
+try {
+     int x = 10/0; 
+  } catch (ArithmeticException e1) {
+      System.out.print("a");
+  } catch (Exception e2) {
+      System.out.print("b");
+ } finally {
+      System.out.print("c");
+  }
+ What will be the output?(1 Point)
+
+a. abc
+
+b. ac
+
+c. bc
+
+d. compilation fails
+4.interface One{
+    void calculate();
+ }
+ class Trial implements One{
+   // insert code
+ }
+  
+Identify the code that should be added in class Trial to compile without errors?(1 Point)
+
+a. void calculate(){}
+
+b. public void calculate(){}
+
+c. protected void calculate(){}
+
+d. public void calculate();
+5.The interface that should be implemented to save the state of the object(1 Point)
+
+a. Serializable
+
+b. Comparable
+
+c. Cloneable
+
+d. Consumer
+6.Identify the right syntax that is used with PreparedStatement object (ps)(1 Point)
+
+a. ps.execute(“select * from employee”);
+
+b. ps.executeQuery(“select * from employee”);
+
+c. ps = connection.prepareStatement(“select * from employee”);ps.execute();
+
+d. ps = connection.prepareStatement(“select * from employee”); ps.executeQuery();
+7.Lambda expressions can be used with(1 Point)
+
+a. Marker interfaces
+
+b. Abstract classes
+
+c. Functional interfaces
+
+d. Interfaces with many methods
+8.The annotation that is used to retrieve the parameter that is  added along with the url(1 Point)
+
+a. @PathVariable
+
+b. @PathParam
+
+c. @RequestParam
+
+d. @QueryParam
+9.Spring MVC uses ___________ servlet to handle HTTP  request and response(1 Point)
+
+a. HttpServlet
+
+b. SpringServlet
+
+c. Dispatcher Servlet
+
+d. HandlerServlet
+10.If a java class has spring bean definitions, then it should be annotated with _____ to be used by the IOC container(1 Point)
+
+a. @Configuration
+
+b. @Bean
+
+c. @SpringBoot
+
+d. @Component
+11.The methods to handle the exception in the controller is annotated with___(1 Point)
+
+a. @ExceptionHandler
+
+b. @Exception
+
+c. @Handler
+
+d. @ControllerAdvice
+12.Which of the following annotation is used above the class to handle the exceptions from any controller?(1 Point)
+
+a. @ExceptionHandler
+
+b. @ControllerHandler
+
+c. @ControllerAdvice
+
+d. @Handler
+13.While handling exception using Assertion method, what will be the outcome(1 Point)
+
+a. The test will pass if the exception is thrown
+
+b. The test will fail if the exception is thrown
+14.What is the order of the annotations with which the methods will be called?(1 Point)
+
+a. @BeforeAll, @BeforeEach, @Test, @AfterEach,@AfterAll
+
+b. @BeforeEach, @BeforeAll, @Test, @AfterEach, @AfterAll
+
+c. @BeforeAll, @BeforeEach, @AfterEach, @AfterAll, @Test
+
+d. @BeforeEach, @AfterEach, @Test, @BeforeAll, @AfterAll
+15.The method to retrieve the value from a radio button with the name “language” i(1 Point)
+
+a. request.getParameterValues(“language”);
+
+b. request.getParameter(“language”);
+
+c. response.getParameter(“language”);
+
+d. request.getAttribute(“language”);
+16.How to import a package (java.util) in jsp?(1 Point)
+
+a. <c:import file=”java.util.* ”/>
+
+b. < jsp:import file= ”java.util.* ”/>
+
+c. <%@page import=”java.util.* ”%>
+
+d. <jsp:include file=”java.util.*”/>
+17.Which HTTP method sends the data from the client as a query string?(1 Point)
+
+a. GET
+
+b. TRACE
+
+c. POST
+
+d. HEAD
+18.The tasks like authenticating - blocking of requests, data compression , logging are performed by(1 Point)
+
+a. Servlets
+
+b. Filters
+
+c. Listeners
+
+d. Servlet Container
+19.In the below given code, which one does not go inside the _jspService method of the converted servlet?(1 Point)
+
+a. <%=”Hello world”%>
+
+b. <% int x = 10;%>
+
+c. <%! int x = 10;%>
+
+d. <%@ int x = 10;%>
+20.In the form given in “trial.html” what will the output on click of submit button
+  
+ <form action=”demo.html”>
+  
+<input type=”text”name=”name”>
+  
+<input type=”button” value=”submit”>
+  </form>(1 Point)
+
+a. The page demo.html will be displayed
+
+b. The same page will be displayed
+21.The name of the configuration file where all struts specific configurations are added(1 Point)
+
+a. struts-action.xml
+
+b. web.xml
+
+c. struts.xml
+
+d. struts-config.xml
+22.The property to add text colour in css for <h1>tag is (1 Point)
+
+a. <h1 style =”font-color:red”>Hello</h1>
+
+b. <h1 style =”color:red”>Hello</h1>
+
+c. <h1 style =”text-color:red”>Hello</h1>
+
+d. <h1 style =”bg-color:red”>Hello</h1>
+23.Choose the correct  CSS syntax for changing the p tag with “row” as id to uppercase  for     <p id=”row”>Welcome to CSS</p> <p>hello </p>(1 Point)
+
+a. .row{ text-transform:’uppercase’}
+
+b. #row{ text-transform:’uppercase’}
+
+c. row{ text-transform:’uppercase’}
+
+d. p{ text-transform:’uppercase’}
+24.Identify the correct syntax for object literal(1 Point)
+
+a. let emp = {name:’Raj’; empId:10; salary:!000; }
+
+b. let emp = new Employee()=>{name:’Raj’,empId:10,salary:!000}
+
+c. let emp = {name:’Raj’,empId:10,salary:!000}
+
+d. let emp = function(){name:’Raj’,empId:10,salary:!000}
+25.Identify the correct syntax for function expression?(1 Point)
+
+a. let greet = function(){console.log(“Hello”)}
+
+b. let greet = function greet(){console.log(“Hello”)}
+
+c. let greet = ()->{console.log(“Hello”)}
+
+d. function greet(){console.log(“Hello”)}
+26.Which type of encapsulation bleeds the style to the other components(1 Point)
+
+a. ViewEncapsulation.Emulated
+
+b. ViewEncapsulation.None
+
+c. ViewEncapsulation.ShadowDOM
+
+d. None of the above
+27.Identify the correct syntax for ngFor ?(1 Point)
+
+a. <li ngFor=”let course of courses[]”>{{course}}</li>
+
+b. <li *ngFor=”let course in courses[]”>{{course}}</li>
+
+c. <li ngFor=”let course in courses”>{{course}}</li>
+
+d. <li *ngFor=”let course of courses”>{{course}}</li>
+28.Which of the following is INCORRECT about Observable?(1 Point)
+
+a. Observables can return one or many values
+
+b. Observables can be synchronous or asynchronous
+
+c. Observables cannot return single value
+
+d. Observables should be subscribed to consume the values
+29.Which of the following is not a property of @Component decorator?(1 Point)
+
+a. selector
+
+b. imports
+
+c. templateUrl
+
+d. styles
+30.Which of the following is used for changing the style and behavior ? (1 Point)
+
+a. ngIf
+
+b. ngSwitch
+
+c. ngClass
+
+d. ngFor
+31.Choose the WRONG answer(1 Point)
+
+a. when() thenReturn can used to mock methods with return type
+
+b. when() thenThrow can used to mock methods that throw exception
+
+c. doThrow() when can used to mock void methods that throw exception
+
+d. doReturn() when can used to mock void methods that throw exception
+32.What is the annotation to create mock object?(1 Point)
+
+a. @Mocking
+
+b. @Mock
+
+MockiTo
+
+d. @MockOb
